@@ -1,6 +1,5 @@
 FROM node:6
 
-# replace this with your application's default port
 EXPOSE 3000
 
 RUN npm install -g concurrently
